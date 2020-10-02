@@ -7,27 +7,32 @@
 div.center {
   margin: auto;
   position: absolute;
-  top: 15%;
-  left: 9%;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%,0%);
 }
 
 div.pic {
   display:inline-block;
+  vertical-align: middle;
+  text-align: center;
 }
 
 div.title {
   font-size: 4vmax;
+  font-family: Arial, Helvetica, sans-serif;
   display:inline-block;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.contact {
-transition-duration: 0.4s;
-text-align: left;
-font-size: 10px
-}
-
-/contact :hover {
-  color: black;
+div.logo {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
 }
 
 </style>
@@ -37,20 +42,21 @@ font-size: 10px
 <div class="center">
 
   <div class="pic">
-    <img src="wander_logo.png" alt="Project Wander Logo" class="center" style="width: 3vmax">
-  </div>
+    <img src="wander_logo.png" alt="Project Wander Logo" class="center" style="width: 6vmax">
+  </div>&nbsp;&nbsp;&nbsp;
   <div class="title">
     PROJECT WANDER
   </div>
-  <br><br><br>
-  <div class="contact">
-    <a href="mailto: wander@projwander.com"> 
-      <button type="button">Contact</div>
-    </a>
-  </div>
- 
 
-</div> 
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
+  <div class="logo">  <a href="mailto:jamesyoungny@gmail.com" target="_blank"> 
+    <img src="email-logo.png" alt="Email" style="width: 1.5vmax"> 
+  </a></div>
+
+</div>
 
 </body>
 </html>
